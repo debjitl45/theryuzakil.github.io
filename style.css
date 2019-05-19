@@ -1,96 +1,44 @@
-*
+body, html 
 {
-margin: 0:
-padding: 0;
+  height: 100%;
+  background-image: url("background.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ font-family: Verdana, Geneva, sans-serif;
 }
-
-body
+.marquee
 {
- background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(ironman.jpg);
-height: 100vh;
-background-size: cover;
-background-position: centre;
-font-family: monospace;
+font-weight:800;
 }
-
-
-
-
-/*Navigation bar*/
-.main-nav
+.prof-box
 {
-float:right;
-list-style:none;
-margin-top:30px;
-}
-/*Navigation bar's options*/
-.main-nav li
-{
-display: inline-block;
-}
-.main-nav li a
-{
+width: 400px;
+height: 400px;
+background: rgba(0,0,0,0.3);
+padding: 40px;
 color: white;
-text-decoration:none;
-padding: 5px 20px;
-font-family: "roboto",sans-serif;
-font-size: 15px;
+margin: 0 auto;
+margin-top:100px;
+text-align: center;
 }
-.main-nav li active a
+
+.prof-pic
 {
-   border: 1px solid white;
-}
-.main-nav li a:hover
-{
-border:1px solid white;
-}
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* hover effect*/
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #000000;
-  color: white;
-}
-
-/* Twitter */
-.fa-instagram {
-  background: #ff3300;
-  color: white;
-}
-
-.logo img
-{
-width: 100px;
-height: auto;
-}
-.hero 
-{
-position: absolute;
-margin-left: 0px;
-margin-top:0px;
+border-radius: 50%;
+height: 150px;
+width: 150px;
 }
 h1
 {
-font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
-font-weight: lighter;
-color: white;
-text-transform: uppercase;
-text-align: center;
-font-size: 30px;
-margin-top: 275;
-margin-left: 555;
+font-weight: 300;
+letter-spacing: 1;
+font-size: 40px;
 }
+ .social-icons
+{
+font-size: 40px;
+letter-spacing: 6;
+}
+
