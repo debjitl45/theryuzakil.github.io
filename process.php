@@ -14,7 +14,7 @@ if(isset($_POST['save'])){
 
 	$_SESSION['message']  = "Record has been saved!";
 	$_SESSION['msg_type'] = "success";
-	header("location: money.php");
+	header("location: index.php");
 }
 if(isset($_GET['delete'])){
 	$id = $_GET['delete'];
@@ -22,7 +22,7 @@ if(isset($_GET['delete'])){
 
 	$_SESSION['message']  = "Record has been deleted!";
 	$_SESSION['msg_type'] = "danger";
-	header("location: money.php");
+	header("location: index.php");
 }
 
 if(isset($_GET['edit'])){
@@ -37,6 +37,6 @@ if(isset($_GET['edit'])){
 	}
 
 }
-header("location: money.php");
+header("location: index.php");
 
 ?>
