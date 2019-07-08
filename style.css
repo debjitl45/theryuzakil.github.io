@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+#movies img,#movie img{
+	width: 100%;
+}
+@media(min-width: 960px){
+#movies .col-md-3 .well{
+	height: 500px;
+}
+#movies .col-md-3 .img{
+	height: 240px;
+}
+}
+body{
+  background-image: url(background.jpg); 
+  font-family: 'Open Sans', sans-serif;
+}
+.jumbotron{
+	background-color: rgba(0,0,0,0.4);
+}
+.box{
+	background-color: rgba(0,0,0,0.4);
+}
+button{
+	margin-left: 456px ; 
+}

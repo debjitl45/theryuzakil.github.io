@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MoviesInfo</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html">MoviesDB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/results?search_query=death+note">Anime</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/watch?v=TcMBFSGVi1c">Movie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/watch?v=hDNNmeeJs1Q">Show</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0" id="searchForm">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" id="searchText">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    
+	
+
+<div class="box">
+
+	<div class="container">
+		<div id="movies" class="row"></div>
+		</div>
+</div>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
