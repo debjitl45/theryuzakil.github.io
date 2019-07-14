@@ -1,4 +1,3 @@
- theryuzakil.github.io
 Tetris 2 player game
 now compete with your friends on tetris 
 player 1 controls-
