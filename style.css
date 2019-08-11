@@ -1,0 +1,93 @@
+.jumbotron{
+	background-image: url(bg.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position: center; 
+	color: white;
+}
+.content
+{
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: rgba(0,0,0,0.3);
+}
+#images{
+	width: 2000px;
+	text-align: center;
+}
+#images img{
+	width: 250px;
+	height: 180px;
+	float: left;
+	text-align: center;
+	margin-left: 50px;
+}
+#images1{
+	width: 2000px;
+	text-align: center;
+	margin-left: 325px;
+}
+#images1 img{
+	width: 250px;
+	height: 180px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px; 
+}
+.socicons-list {
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.socicons-list li {
+  margin: 30px 10px;
+}
+.socicons-list li a {
+  text-decoration: none;
+  padding: 30px;
+    font-size: 30px;
+  border-radius: 50%;
+  color: #fff;
+    background-color: #f1f1f1;
+  transition: all ease-in-out 150ms;
+}
+.socicons-list li a:hover {
+text-shadow: 0 5px 10px #212121;
+}
+
+.socicons-list li:nth-child(1) a {
+    background-color: #3e5b98;
+}
+.socicons-list li:nth-child(2) a {
+    background-color: #c13584;
+}
+.socicons-list li:nth-child(3) a {
+    background-color: #4da7de;
+}
+.socicons-list li:nth-child(4) a {
+    background-color: #dd4b39;
+}
+.socicons-list li:nth-child(5) a {
+    background-color: #1769ff;
+}
+section{
+	background-image: url(social.png);
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
+.container{
+	text-align: center;
+	height: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+}
